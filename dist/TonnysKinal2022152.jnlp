@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TonnysKinal2022152.jnlp">
+  <information>
+    <title>TonnysKinal2022152</title>
+    <vendor>informatica</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TonnysKinal2022152.jar" size="666046" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.47-bin.jar" size="1007505" download="eager" />
+    <jar href="lib\schudt-javafx-datepicker-0.0.2.jar" size="67087" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TonnysKinal2022152" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="org.josejimenez.main.Principal"  name="TonnysKinal2022152" />
+  <update check="always"/>
+</jnlp>

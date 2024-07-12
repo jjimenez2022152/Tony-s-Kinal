@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="820.0" stylesheets="@../resource/TonysKinal.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.josejimenez.controller.MenuPrincipalController">
+   <children>
+      <Pane layoutX="153.0" layoutY="448.0" prefHeight="143.0" prefWidth="534.0" style="-fx-background-color: #F2811D;">
+         <children>
+            <Pane layoutX="278.0" layoutY="-13.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+         </children></Pane>
+      <ImageView fitHeight="432.0" fitWidth="551.0" layoutX="164.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/LogoUnoPrincipal.PNG" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="-7.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Módulos">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ventanaEmpresa" text="Empresas" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaProducto" text="Productos" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaTipoPlato" text="TipoPlato" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaTipoEmpleado" text="Tipo Empleado" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Reportes">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Productos" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="?">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ventanaProgramador" text="Programador" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane layoutX="128.0" layoutY="65.0" prefHeight="55.0" prefWidth="53.0" rotate="-135.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="128.0" layoutY="321.0" prefHeight="55.0" prefWidth="53.0" rotate="-135.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="128.0" layoutY="235.0" prefHeight="55.0" prefWidth="53.0" rotate="-135.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="128.0" layoutY="151.0" prefHeight="55.0" prefWidth="53.0" rotate="-135.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="662.0" layoutY="309.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="662.0" layoutY="53.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="662.0" layoutY="139.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="662.0" layoutY="225.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="257.0" prefHeight="44.0" prefWidth="429.0" style="-fx-background-color: #F2811D;" />
+      <Pane layoutX="662.0" layoutY="498.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="662.0" layoutY="414.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="686.0" layoutY="-1.0" prefHeight="590.0" prefWidth="134.0" style="-fx-background-color: #00C03A;" />
+      <Pane layoutX="128.0" layoutY="417.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutX="128.0" layoutY="503.0" prefHeight="55.0" prefWidth="53.0" rotate="45.0" style="-fx-background-color: #F2CB05;" />
+      <Pane layoutY="44.0" prefHeight="547.0" prefWidth="154.0" style="-fx-background-color: #00C03A;" />
+      <Pane layoutX="204.0" layoutY="433.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+      <Pane layoutX="279.0" layoutY="433.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+      <Pane layoutX="357.0" layoutY="433.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+      <Pane layoutX="439.0" layoutY="433.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+      <Pane layoutX="519.0" layoutY="433.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+      <Pane layoutX="597.0" layoutY="433.0" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #F2811D;" />
+   </children>
+</AnchorPane>
